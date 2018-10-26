@@ -24,5 +24,7 @@
 
 	renderTimeLine();
 	renderTimeLineContent(timeLineDataList[0]);
+	
+	
 	updateContent();
 })();
