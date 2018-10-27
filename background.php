@@ -1,5 +1,5 @@
 <head>
-<title>Bootstrap Example</title>
+<title>Diyam - ContactUs</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -168,32 +168,30 @@
 		</div>
 	<div class="row">
 		<div class="col-md-4 col-md-offset-1" style="margin-left: 20px;">
-			<form name="diyam_form" action="mailto:contactus@diyaminfotech.com"
-				method="post" enctype="text/plain">
-				<div class="form-group">
-					<label for="Name">Name</label> <input type="Name"
-						class="form-control" id="Name" placeholder="Enter Name"
-						name="Name">
-				</div>
-				<div class="form-group">
-					<label for="Mobile No">Mobile No.</label> <input type="tel"
-						class="form-control" id="Telephone" placeholder="Enter Mobile No."
-						name="Mobile No.">
-				</div>
-				<div class="form-group">
-					<label for="Email">Email*</label> <input type="email"
-						class="form-control" id="Email" placeholder="Enter Email"
-						name="Email" required>
-				</div>
+			<form action="#" id="form" method="post" name="form">
 
-				<div class="form-group">
-					<label for="Email">Comments</label>
-					<textarea class="form-control" id="comments" placeholder="Comments"
-						name="Comments"></textarea>
-				</div>
+    <div class="form-group">
+      <label for=" Name"> Name</label>
+      <input class="form-control" id="Name" placeholder="Enter Name" name="fname">
+    </div>
+    <div class="form-group">
+      <label for="Mobile No">Mobile No</label>
+      <input class="form-control" id="LName" placeholder="Enter Mobile No" name="lname">
+    </div>
+    <div class="form-group">
+      <label for="Email">Email*</label>
+      <input class="form-control" id="Email" placeholder="Enter Email" name="email">
+    </div>
+     <div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="message" class="form-control" name="message" placeholder="Enter Your Comments.."></textarea>
+    </div>
+   
+    <button type="submit" name="submit" style="float: center;" class="btn btn-default">Send</button>
+  </form>
+   
 
-				<button type="submit" class="btn btn-default">Submit</button>
-			</form>
+			<h3><?php include "SendEmail.php";?></h3>
 		</div>
 		
 	</div>
