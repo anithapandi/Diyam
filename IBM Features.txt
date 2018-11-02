@@ -1,0 +1,59 @@
+1.Upgrade paths
+Because version 10.0 is a major release, you can upgrade from 8.6.x, 9.0.x, or 9.1.x. For instructions, see the IBM Campaign Upgrade Guide.
+
+2.Enhanced user interface for Marketing Platform, Campaign, Interact, and Contact Optimization.
+
+3.Context-sensitive help for Configuration properties
+
+4.EMM files and directories renamed to IMS
+   
+
+5.Integration with IBM Engage in the IBM Marketing Cloud
+
+6.Integration with IBM Journey Designer
+
+7.Advanced search for campaigns, sessions, offers, segments.
+
+8.Make flowcharts searchable by indexing the .ses file
+
+9.Performance enhancement 
+
+10.New option during installation to create a system table data source connection in the web application server
+
+11.Simplified process for installation
+The process to deploy and configure IBM Integration Bus so that an integration developer can use the IBM Integration Toolkit to start creating applications is simplified and quicker to complete.
+
+12.Tutorials Gallery
+The Tutorials Gallery is included with the IBM Integration Toolkit, and is accessible from the Welcome page and from the Help menu.
+
+13.Shared libraries
+Shared libraries are introduced to share resources between multiple applications. Libraries in previous versions of IBM Integration Bus are static libraries.
+
+14.Flexible administration security
+You can choose between two modes of authorization when you enable administration security on an integration node
+
+15.Direct access to online help from the IBM Integration Toolkit
+By default, the IBM Integration Toolkit is now configured to use the online IBM Knowledge Center to provide context-sensitive help from the latest information that is available.
+
+16.Additional administration tasks can be configured by using the web user interface
+In addition to the administration tasks that were available in IBM Integration Bus Version 9.0, you can now perform the following tasks by using the web user interface:
+Create, rename, start, stop, and delete integration servers.
+Deploy integration solutions.
+Start, stop, manage, and delete deployed resources.
+View, create, edit, and delete configurable services.
+Create, retrieve, update, and delete operational policies.
+Collect and view resource statistics for your integration servers.
+
+17.Test your message flows by using the Flow Exerciser
+To check that a message flow is processing messages as expected, you can send messages to the flow, see the path that each message took, and view the structure and content of the logical message tree at any point in a message flow.
+
+18.Microsoft SQL Server support for recording and replaying data
+You can configure a Microsoft SQL Server database to be used as a data store for recording and replaying data. When the database has been configured, you can select a data capture store that is configured to use an SQL Server database and view the recorded data.
+
+19.Using the Environment tree as input data to your transformations
+In a message map, you can update, delete, or create data in the environment tree Variables folder. You can use the environment tree as input data to your transformations.
+
+20.Creating a message map programmatically
+You can use the Graphical Data Map Specification Language to create a message map programmatically.
+
+
