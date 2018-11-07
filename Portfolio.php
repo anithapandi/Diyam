@@ -8,19 +8,19 @@
 <body>
 <div class="container">
   	<div class="row">
-  			<div class="col-sm-4">
+  			<div class="column">
   				<h4 align="center">SPM/ICM</h4>
-    			<img src="Images/SPMICM.jpg" alt="SPM/ICM"  height="350">
+    			<img src="Images/SPMICM.jpg" alt="SPM/ICM" class="rounded" style="width:100%" height="350">
     		</div>
   
-  			<div class="col-sm-4">
+  			<div class="column">
    				<h4 align="center">Web Technologies</h4>
-    			<img src="Images/Web Technology.jpg" alt="Web Technologies" height="350">  
+    			<img src="Images/Web Technology.jpg" alt="Web Technologies" class="rounded" style="width:100%" height="350">  
   			</div>
   			
-  			<div class="col-sm-4">
+  			<div class="column">
     			<h4 align="center">Data integration</h4>
-    			<img src="Images/DataIntegration.jpg" alt="Data Integration" height="350">
+    			<img src="Images/DataIntegration.jpg" alt="Data Integration" class="rounded" style="width:100%" height="350">
   			</div>
 	</div> 
 </div>

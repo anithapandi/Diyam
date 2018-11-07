@@ -2,12 +2,15 @@
     box-sizing: border-box;
 }
 
-.container {
+.container{
 	
-    float:left;
-    padding-top:80px;
-    padding-left:80px;
-    padding-right:80px;
+	Padding-top:80px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
 }
 
 /* Clearfix (clear floats) */
@@ -22,4 +25,3 @@
     .column {
         width: 100%;
     }
-}
