@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    float:center;
+    padding-top:80px;
+    Padding-bottom:40px;
+    
+}
