@@ -161,7 +161,7 @@
   </form>
    
 
-			<h3><?php include "SendEmail.php";?></h3>
+			<h3><?php include "NewSendEmail.php";?></h3>
 		</div>
 		
 	</div>
