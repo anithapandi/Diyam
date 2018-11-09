@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+
 <head>
 <title>Diyam - ContactUs</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -190,4 +189,3 @@
  
 	<script type="text/javascript" src="contactus_timelineView.js"></script>
 </body>
-</html>
