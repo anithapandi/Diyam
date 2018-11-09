@@ -5,23 +5,33 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="Portfolio.css">
 </head>
+<style>
+
+</style>
 <body>
 <div class="container">
-  	<div class="row">
-  			<div class="column">
-  				<h4 align="center">SPM/ICM</h4>
-    			<img src="Images/SPMICM.jpg" alt="SPM/ICM" class="rounded" style="width:100%" height="350">
-    		</div>
+  		<div class="bg">
+  		<div class="portimg">
+  			<div class="containertitle">SPM/ICM</div>
+  				<a target="_self" href="SPM.php">
+    				<img src="Images/spm.png" alt="SPM/ICM"  height="200">
+    			</a>	
+    	</div>
   
-  			<div class="column">
-   				<h4 align="center">Web Technologies</h4>
-    			<img src="Images/Web Technology.jpg" alt="Web Technologies" class="rounded" style="width:100%" height="350">  
-  			</div>
+  		<div class="portimg">
+   			<div class="containertitle">Web Technologies</div>
+   				<a target="_self" href="Web.php">
+    				<img src="Images/web.png" alt="Web Technologies" height="200">
+    			</a>	  
+  		</div>
   			
-  			<div class="column">
-    			<h4 align="center">Data integration</h4>
-    			<img src="Images/DataIntegration.jpg" alt="Data Integration" class="rounded" style="width:100%" height="350">
-  			</div>
-	</div> 
+  		<div class="portimg">
+  			<div class="containertitle">Business Integration Solutions</div>
+  				<a target="_self" href="BI.php">
+    				<img src="Images/spm.png" alt="Data Integration" height="200">
+    			</a>
+  		</div>
+	</div>
+	
 </div>
 </body>
