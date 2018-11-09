@@ -7,21 +7,69 @@
 	Padding-top:80px;
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+body{
+	background:#969fab;
+	font-family:"Trebuchet MS",Arial,Helvetica,Sans-serif;
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
+.bg{
+	 /* The image used */
+    background-image: url("Images/Portfoliobackground.jpg");
+
+    /* Full height */
+    height: 75%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    Position:relative;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
-    .column {
-        width: 100%;
-    }
+
+
+.portimg {
+  padding-top:80px;	
+  padding-bottom:80px;
+  padding-left:20px;
+  float:left;
+  margin-top:25px;
+  margin-left:25px;
+  width: 30%;
+  margin-bottom: 25px;
+  border:5px solid red
+}
+
+.containertitle {
+	
+  background:#42517f;
+  text-align: center;
+  color:white;
+  font-weight:bold;
+  font-size:medium;
+  padding: 10px 20px;
+  width: 80%;
+  border:5px solid green;
+  
+}
+
+.bgWeb{
+	 /* The image used */
+    background-image: url("Images/home4.jpg");
+
+    /* Full height */
+    height: 75%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    Position:relative;
+}
+
+.text-web{
+	position: absolute;
+    top: 10%;
+    color:activeborder;
+    transform: translate(-50%, -50%);
+}

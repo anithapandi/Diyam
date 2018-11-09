@@ -2,9 +2,12 @@
     box-sizing: border-box;
 }
 
+body{
+	background:#969fab;
+	font-family:"Trebuchet MS",Arial,Helvetica,Sans-serif;
+}
 .container {
     float:center;
     padding-top:80px;
     Padding-bottom:40px;
-    
 }

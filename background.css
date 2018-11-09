@@ -5,6 +5,7 @@ body {
   color: #5a5a5a;
   overflow-x:hidden !important;
   overflow-y:scroll;
+  font-family:"Trebuchet MS",Arial,Helvetica,Sans-serif;
 }
 
 .overlay { 
