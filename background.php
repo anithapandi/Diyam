@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <head>
 <title>Diyam - ContactUs</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +26,7 @@
 				<div id="divcol" class="col-md-10">
 					<div class="navbar-collapse collapse"
 						style="background-color: white;margin-top:15px;">
-						<ul class="nav navbar-nav" style="float: right";>
+						<ul class="nav navbar-nav" style="float: right;">
 							<li><a href="index.php">Home</a></li>
 							<li><a href="Portfolio.php">Portfolio</a></li>
 							<li class="dropdown"><a href="#" class="dropdown-toggle"
@@ -188,3 +190,4 @@
  
 	<script type="text/javascript" src="contactus_timelineView.js"></script>
 </body>
+</html>
