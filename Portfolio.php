@@ -14,21 +14,21 @@
   		<div class="portimg">
   			<div class="containertitle">SPM/ICM</div>
   				<a target="_self" href="SPM.php">
-    				<img src="Images/spm.png" alt="SPM/ICM"  height="200">
+    				<img src="Images/spm.png" alt="SPM/ICM"  width="382" height="200">
     			</a>	
     	</div>
   
   		<div class="portimg">
    			<div class="containertitle">Web Technologies</div>
    				<a target="_self" href="Web.php">
-    				<img src="Images/web.png" alt="Web Technologies" height="200">
+    				<img src="Images/web.png" alt="Web Technologies" width="382" height="200">
     			</a>	  
   		</div>
   			
   		<div class="portimg">
   			<div class="containertitle">Business Integration Solutions</div>
   				<a target="_self" href="BI.php">
-    				<img src="Images/spm.png" alt="Data Integration" height="200">
+    				<img src="Images/BI2.png" alt="Data Integration" width="382" height="200">
     			</a>
   		</div>
 	</div>

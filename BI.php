@@ -12,7 +12,8 @@
 </style>
 <body>
 <div class="container">
-	
+	<div class="bgBI">
+	</div>
 </div>
 
 </body>

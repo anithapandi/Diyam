@@ -1,10 +1,9 @@
 <head>
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <link href="libraries/bootstrap.min.css"></link>
+ <script src="libraries/jquery-3.3.1.min.js.js"></script>
+	<script src="libraries/bootstrap.min.js"></script>
+  
+  
 <link rel="stylesheet" href="resource.css">
 </head>
 <body>
@@ -19,7 +18,7 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="item active">
-						<img class="imageStyle" src="resource orange.jpg"
+						<img class="imageStyle" src="Images/resource orange.jpg"
 							alt="First slide">
 					</div>
 					
@@ -39,7 +38,7 @@
 						<div class="col-md-3">
 							<div class="card"
 								style="border: 0.5px solid lightgray; border-radius: 10px; height: 50%;">
-								<img src="ibm_cognos.png" alt="Avatar" style="width:29%">
+								<img src="Images/ibm_cognos.png" alt="Avatar" style="width:29%">
 								<h5 class="card-header">IBM ICM V10</h5>
 								<div class="card-body">
 									
@@ -52,7 +51,7 @@
 						<div class="col-md-3">
 							<div class="card"
 								style="border: 0.5px solid lightgray; border-radius: 10px; height: 50%;">
-								<img src="calculator-820330_640.jpg" alt="Avatar" style="width:54%">
+								<img src="Images/calculator-820330_640.jpg" alt="Avatar" style="width:54%">
 								<h5 class="card-header">Key Points of ICM</h5>
 								<div class="card-body">
 									
