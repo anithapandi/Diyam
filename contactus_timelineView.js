@@ -20,9 +20,36 @@
 					render("timeLineContentTemplate", result, $(".timeLineContent"));
 					
 				});
+			},
+			
+			changeFrameSource=function(){
+				$(".port").click(function(){
+					var id=$(this).attr("id");
+					if(id=="portfolio"){						
+						$("#pageLoader").attr("src","Portfolio.php");
+						$("#pageLoader").show();
+						$(".contact").hide();
+					}
+					else if(id=="Reso"){
+						$("#pageLoader").attr("src","Resource.php");
+						$("#pageLoader").show();
+						$(".contact").hide();
+					}
+					else if(id=="contact"){
+						$(".contact").show();
+						$("#pageLoader").hide();
+					}
+					else if(id=="home"){
+						$("#pageLoader").attr("src","index.php");
+						$("#pageLoader").show();
+						$(".contact").hide();
+						
+					}
+				});
 			}
 
 	renderTimeLine();
 	renderTimeLineContent(timeLineDataList[0]);
 	updateContent();
+	changeFrameSource();
 })();

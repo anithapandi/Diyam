@@ -26,15 +26,15 @@
 					<div class="navbar-collapse collapse"
 						style="background-color: white;margin-top:15px;">
 						<ul class="nav navbar-nav" style="float: right;">
-							<li><a href="index.php">Home</a></li>
-							<li><a href="Portfolio.php">Portfolio</a></li>
+							<li><a id="home" class="port" >Home</a></li>
+							<li><a id="portfolio" class="port">Portfolio</a></li>
 							<li class="dropdown"><a href="#" class="dropdown-toggle"
 								data-toggle="dropdown">Customers <b class="caret"></b></a>
 								<ul class="dropdown-menu">
 									<li><a href="#">Consolidated communication</a></li>
 									<li><a href="#">Blue Rental</a></li>
 								</ul></li>
-							<li class="dropdown"><a href="Resource.php" class="dropdown-toggle"
+							<li class="dropdown"><a id="Reso" class="dropdown-toggle port"
 								data-toggle="dropdown">Resources <b class="caret"></b></a>
 								<ul class="dropdown-menu">
 									<li><a href="#">IBM ICM V10</a></li>
@@ -42,7 +42,7 @@
 									<li><a href="#">Videos</a></li>
 									<li><a href="#">Blogs</a></li>
 								</ul></li>
-							<li><a href="#contact">Diyam</a></li>
+							<li><a id="contact" class="port">Diyam</a></li>
 						</ul>
 					</div>
 				</div>
@@ -53,7 +53,7 @@
 
 
 	<!-- /navbar wrapper -->
-
+    <div class="contact" style="display:none !important;" >
 	<div class="overlay">
 		<div class="row" id="about">
 			<div class="col-md-1">
@@ -166,8 +166,11 @@
 		</div>
 		
 	</div>
-
+</div>
+<iframe id="pageLoader" style="width:100%;height:100%;" src="index.php"></iframe>
     <!-- Footer Elements -->
+    <div class="row">
+    <div class="col-md-6 col-md-offset-5">
     <div class="fa">
 	
     <a href="#" class="fa fa-facebook"></a>
@@ -177,12 +180,19 @@
 	<a href="#" class="fa fa-instagram"></a>
 	<a href="#" class="fa fa-pinterest"></a>
 	
+
+</div>
+</div>
 </div>
     <!-- Footer Elements -->
 
     <!-- Copyright -->
+    <div class="row">
+    <div class="col-md-2 col-md-offset-5">
     <div class="footer-copyright text-center py-3">&copy;
       <a href="index.php">Diyam Infotech.All Rights Reserved.</a>
+    </div>
+    </div>
     </div>
     <!-- Copyright -->
 

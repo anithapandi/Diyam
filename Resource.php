@@ -1,8 +1,7 @@
 <head>
- <link href="libraries/bootstrap.min.css"></link>
- <script src="libraries/jquery-3.3.1.min.js.js"></script>
-	<script src="libraries/bootstrap.min.js"></script>
-  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
 <link rel="stylesheet" href="resource.css">
 </head>
@@ -26,8 +25,8 @@
 					</div>
 				</div>
 				<a class="left carousel-control" href="#carousel-example-generic"
-					data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a><a
-					class="right carousel-control" href="#carousel-example-generic"
+					data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a>
+					<a class="right carousel-control" href="#carousel-example-generic"
 					data-slide="next"><span class="glyphicon glyphicon-chevron-right">
 				</span></a>
 			</div>
