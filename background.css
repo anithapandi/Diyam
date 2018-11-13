@@ -154,7 +154,7 @@ ul.timeline > li:before {
 	background-color:white !important;
 }
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
-	background-color:white !important;
+	background-color:none !important;
 }
 
 .fa {
@@ -201,3 +201,16 @@ ul.timeline > li:before {
   background: #cb2027;
   color: white;
 }
+
+.navbar-inverse
+{
+	background-color:transparent !important;
+	border:none !important;
+}
+.whole
+{
+	background-color:transparent !important;
+	border:none !important;
+}
+}
+

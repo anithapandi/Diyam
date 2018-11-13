@@ -14,17 +14,18 @@
  <?php include 'TimeLineTemplate.php';?>
 </head>
 <body style="background-color: white !important;">
+
 	<div class="navbar-wrapper">
 		<div class="navbar navbar-inverse navbar-static-top"
-			style="margin-Top: 0px !important; background-color: white; border-color: white;">
-			<div class="row">
+			style="margin-Top: 0px !important;">
+			<div class="row" id="head">
 				<div class="col-md-2">
-					<img src="Images/Diyamlogo.jpg" alt="logo"
+					<img src="Images/Diyamlogo.png" alt="logo"
 						style="width: 75px; height: 75px;">
 				</div>
 				<div id="divcol" class="col-md-10">
 					<div class="navbar-collapse collapse"
-						style="background-color: white;margin-top:15px;">
+						style="margin-top:15px;">
 						<ul class="nav navbar-nav" style="float: right;">
 							<li><a id="home" class="port" >Home</a></li>
 							<li><a id="portfolio" class="port">Portfolio</a></li>
@@ -168,8 +169,9 @@
 	</div>
 </div>
 <iframe id="pageLoader" style="width:100%;height:100%;" src="index.php"></iframe>
-    <!-- Footer Elements -->
-    <div class="row">
+    <!-- Footer Elements --> 
+    <div class="footer">
+    <div class="row" >
     <div class="col-md-6 col-md-offset-5">
     <div class="fa">
 	
@@ -184,6 +186,7 @@
 </div>
 </div>
 </div>
+
     <!-- Footer Elements -->
 
     <!-- Copyright -->
@@ -194,8 +197,12 @@
     </div>
     </div>
     </div>
+    </div>
+    
+    </body>
     <!-- Copyright -->
 
  
 	<script type="text/javascript" src="contactus_timelineView.js"></script>
+	
 </body>
