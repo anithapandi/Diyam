@@ -11,7 +11,6 @@ function opentab(evt, BName) {
     document.getElementById(BName).style.display = "block";
     evt.currentTarget.className += " active";
     
-    document.getElementById("defaultOpen").click();
 }
 
 function openspm(evt, spmName) {
@@ -26,6 +25,5 @@ function openspm(evt, spmName) {
     }
     document.getElementById(spmName).style.display = "block";
     evt.currentTarget.className += " active";
-    
-    document.getElementById("defaultOpen").click();
+  
 }

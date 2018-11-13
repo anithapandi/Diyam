@@ -12,9 +12,9 @@
 <div class="container">
 	<div class="bgICM">
 	<div class="tab">
-          <button class="tablinks" onclick="openspm(event, 'SPM')" id="defaultOpen">Sales Performance Management</button>
-          <button class="tablinks" onclick="openspm(event, 'ICM')">Incentive Compensation Management</button>
-          <button class="tablinks" onclick="openspm(event, 'SPMvsICM')">SPM vs ICM</button>
+          <button class="tablinks" onmouseover="openspm(event, 'SPM')">Sales Performance Management</button>
+          <button class="tablinks" onmouseover="openspm(event, 'ICM')">Incentive Compensation Management</button>
+          <button class="tablinks" onmouseover="openspm(event, 'SPMvsICM')">SPM vs ICM</button>
         </div>
 
         <div id="SPM" class="tabcontent">

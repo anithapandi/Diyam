@@ -4,10 +4,11 @@
 
 .container{
 	
-	Padding-top:80px;
+	Padding-top:0px;
 }
 
 body{
+	margin:0px;
 	background:#969fab;
 	font-family:"Trebuchet MS",Arial,Helvetica,Sans-serif;
 }
@@ -16,24 +17,21 @@ body{
 	 /* The image used */
     background-image: url("Images/Portfoliobackground.jpg");
 
-    /* Full height */
-    height: 75%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    Position:relative;
+    width: 100%;
+    height: 100%;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
 }
 
 
 
 .portimg {
-  padding-top:80px;	
+  padding-top:100px;	
   padding-bottom:80px;
   padding-left:20px;
   float:left;
-  margin-top:25px;
+  margin-top:100px;
   margin-left:25px;
   width: 30%;
   margin-bottom: 25px;
@@ -57,15 +55,11 @@ body{
 	 /* The image used */
     background-image: url("Images/WebTech.jpg");
 
-    /* Full height */
-    height: 75%; 
-
-    /* Center and scale the image nicely */
-   
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    Position:relative;
+   width: 100%;
+     height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
     
 }
 
@@ -80,22 +74,18 @@ body{
 	 /* The image used */
     background-image: url("Images/DBA.png");
 
-    /* Full height */
-    height: 600px; 
-    
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    Position:relative;
+    width: 100%;
+     height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .tab {
     float: left;
     background-color: #003060;
     width: 30%;
-    height: 600px;
+    height: 100%;
 }
 
 /* Style the buttons inside the tab */
