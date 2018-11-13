@@ -11,54 +11,13 @@ body{
 	background:#969fab;
 	font-family:"Trebuchet MS",Arial,Helvetica,Sans-serif;
 }
-
-.bg{
+.bgICM{
 	 /* The image used */
-    background-image: url("Images/Portfoliobackground.jpg");
+    background-image: url("Images/ICMbg.jpg");
 
     /* Full height */
-    height: 75%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    Position:relative;
-}
-
-
-
-.portimg {
-  padding-top:80px;	
-  padding-bottom:80px;
-  padding-left:20px;
-  float:left;
-  margin-top:25px;
-  margin-left:25px;
-  width: 30%;
-  margin-bottom: 25px;
-  border:0px solid red
-}
-
-.containertitle {
-	
-  background:#42517f;
-  text-align: center;
-  color:white;
-  font-weight:bold;
-  font-size:medium;
-  padding: 10px 20px;
-  width: 100%;
-  border:0px solid green;
-  
-}
-
-.bgWeb{
-	 /* The image used */
-    background-image: url("Images/WebTech.jpg");
-
-    /* Full height */
-    height: 75%; 
+    max-width:200%;
+    height: 600px; 
 
     /* Center and scale the image nicely */
    
@@ -66,31 +25,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     Position:relative;
-    
 }
-
-.text-web{
-	color:activeborder;
-    padding-top:20px;
-    
-    
-}
-
-.bgBI{
-	 /* The image used */
-    background-image: url("Images/DBA.png");
-
-    /* Full height */
-    height: 600px; 
-    
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    Position:relative;
-}
-
 .tab {
     float: left;
     background-color: #003060;
