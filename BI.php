@@ -16,9 +16,9 @@
 <div class="container">
 	<div class="bgBI">
 		<div class="tab">
-          <button class="tablinks" onmouseover="opentab(event, 'BI')">Business Intelligence</button>
-          <button class="tablinks" onmouseover="opentab(event, 'BA')">Business Analytics</button>
-          <button class="tablinks" onmouseover="opentab(event, 'Data')">Data Integration Solutions</button>
+          <button class="tablinks" onclick="opentab(event, 'BI')" id="defaultOpen">Business Intelligence</button>
+          <button class="tablinks" onclick="opentab(event, 'BA')">Business Analytics</button>
+          <button class="tablinks" onclick="opentab(event, 'Data')">Data Integration Solutions</button>
         </div>
 
         <div id="BI" class="tabcontent">
